@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import jobs from '../jobs.json'
 import Job from './Job'
+
 const JobListings = () => {
     const recentJobs = jobs.slice(0, 3);
 
