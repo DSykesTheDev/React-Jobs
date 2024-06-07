@@ -12,7 +12,7 @@ const HomePage = () => {
       {/* <Navbar /> */}
       <Hero title="Find your dream job today!" subtitle="High quality IT jobs, at your fingertips"/>
       <HeroCards />
-      <JobListings />
+      <JobListings isHome={true} />
       <ViewAllJobs />
     </>
   )
